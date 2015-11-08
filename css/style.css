@@ -13,18 +13,18 @@
   background-size: cover;
   background-attachment: fixed; }
 
-.navbar {
-	/*background-color: #54B1D6;*/
+@media screen and (max-width: 767px) {
+	#home {background-image: none; }
+	#accomm {background-image: none; }
 }
+
 
 .navbar .navbar-nav {
  	display: inline-block;
  	vertical-align: top;
  	float: none;
  	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-	font-size: 20px;
-	padding-left: 2em;
-	padding-right: 2em;
+	font-size: 18px;
 
 }
 
@@ -96,7 +96,6 @@ ol {line-height: 2;}
 #lastpage {
 	margin-top: 0;
 	padding-top: 2em;
-	font-family: 
 }
 
 
